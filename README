@@ -7,9 +7,8 @@ Lumen is (or will be someday) a GUI toolkit for Ada.
 It is written entirely in Ada (with a few insignificant exceptions, like in
 the Linux joystick code, no direct calling of ioctl from Ada yet), based on
 OpenGL and thus expected to be portable across OS's (currently runs on X11
-sytems like Linux and the *BSD's, and on Win32 systems like MS-Windows NT and
-7).  Once somebody steps up and writes the low-level portions for OS-X, it
-will run there too.
+sytems like Linux and the *BSD's, Once somebody steps up and writes the low-level
+portions for OS-X, it will run there too.
 
 The root of the documentation source is "doc/index.markdown".  The
 formatted docs should be available here:
@@ -26,6 +25,8 @@ of Lumen; they are available here:
 
    git://ftp.niestu.com/lumen-demos
    https://github.com/karakalo/lumen-demos
+
+License: refer to https://github.com/karakalo/lumen/issues/3
 
 --
 Chip Richards
